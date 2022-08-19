@@ -34,6 +34,7 @@ jobs:
            haxelib install haxeui-core
            haxelib install haxeui-hxwidgets
            haxelib install hxcpp
+           haxelib install hscript
            haxelib install openfl
            haxelib install polymod
            haxelib install newgrounds
