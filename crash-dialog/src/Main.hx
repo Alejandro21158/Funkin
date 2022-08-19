@@ -87,6 +87,7 @@ class Main
 				{
 					#if windows
 					new Process("Psych engine.exe", []);
+					#end
 					#if windows
 					new Process("Kade Engine.exe", []);
 					#elseif linux
