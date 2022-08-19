@@ -39,8 +39,11 @@ jobs:
            haxelib install flixel
            haxelib run lime setup flixel
           haxelib install flixel-tools
+          haxelib git systools https://github.com/haya3218/systools
+          haxelib run lime rebuild systools windows
           haxelib run flixel-tools setup
           haxelib install flixel-addons
+          haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
           haxelib install flixel-ui
           haxelib install linc_luajit
            haxelib install lime
